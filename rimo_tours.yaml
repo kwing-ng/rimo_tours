@@ -9,10 +9,10 @@
   "version": "1.0.2"
 "servers":
   -
-    "url": "https://api.rimotours.com"
+    "url": "https://api.goodjourney.io"
     "description": "Production server"
   -
-    "url": "https://api.sandbox.rimotours.com"
+    "url": "https://api.sandbox.goodjourney.io"
     "description": "Development server"
 "tags":
   -
