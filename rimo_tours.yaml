@@ -1,8 +1,8 @@
 
 "openapi": "3.1.0"
 "info":
-  "title": "AIRPORT-TAXI demand - OpenAPI"
-  "description": "__AIRPORT DEMAND APIs__\n* __Basic authentication__ is a simple authentication scheme built into the HTTP protocol. Your HTTP requests with the Authorization header that contains the word Basic word followed by a space and a base64-encoded string username:password\n- Example: Authorization: Basic ZGVtbzpwQDU1dzByZA=\n* __Bearer Token__ is a cryptic string, you will retrieve the TOKEN via get Access Token API. You must send this token in the Authorization header when making requests. \n- Example: Authorization: Bearer SlAV32hkKG\n\n\n__WEBHOOKs__ : We also support 3 webhooks to notify booking infomation. Please register the URL to AIRPORT .\n* __assignedDriver__ When a driver is assigned to a booking. It sends detailed information about the driver and the assignment to your register URL\n* __bookingStatus__ When a booking status is changed, It provides comprehensive updates for each stage of the booking process.\n* __driverLocation__ This is used for realtime tracking, henever there is an update to a driver's location.\n"
+  "title": "RIMO TOURS demand - OpenAPI"
+  "description": "__RIMO TOURS DEMAND APIs__\n* __Basic authentication__ is a simple authentication scheme built into the HTTP protocol. Your HTTP requests with the Authorization header that contains the word Basic word followed by a space and a base64-encoded string username:password\n- Example: Authorization: Basic ZGVtbzpwQDU1dzByZA=\n* __Bearer Token__ is a cryptic string, you will retrieve the TOKEN via get Access Token API. You must send this token in the Authorization header when making requests. \n- Example: Authorization: Bearer SlAV32hkKG\n\n\n__WEBHOOKs__ : We also support 3 webhooks to notify booking infomation. Please register the URL  .\n* __assignedDriver__ When a driver is assigned to a booking. It sends detailed information about the driver and the assignment to your register URL\n* __bookingStatus__ When a booking status is changed, It provides comprehensive updates for each stage of the booking process.\n* __driverLocation__ This is used for realtime tracking, henever there is an update to a driver's location.\n"
   "termsOfService": "https://rimotours.com/terms-conditions/"
   "contact":
     "email": "api@rimotours.com"
@@ -73,7 +73,7 @@
     "post":
       "tags":
         - "Quotes"
-      "summary": "Get AIRPORT TAXI quotations"
+      "summary": "Get RIMO TOURS quotations"
       "description": "Request a quote for a ride. This endpoint provides estimated pricing based on the given parameters like location, destination, and ride type, Note: the pickupDateTime `MUST` be `UTC` time"
       "operationId": "getQuotation"
       "requestBody":
