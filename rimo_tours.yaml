@@ -11,9 +11,6 @@
   -
     "url": "https://api.goodjourney.io"
     "description": "Production server"
-  -
-    "url": "https://api.sandbox.goodjourney.io"
-    "description": "Development server"
 "tags":
   -
     "name": "Authentication"
